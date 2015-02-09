@@ -1,7 +1,7 @@
 Dependencies:
 
 * [EPICS Base 3.14](http://www.aps.anl.gov/epics/base/R3-14/12.php)
-* [Swig 3.0.2](http://sourceforge.net/projects/swig/files/swig/swig-3.0.2/)
+* [SWIG 3.0.2](http://sourceforge.net/projects/swig/files/swig/swig-3.0.2/) (note: v3.0.3-3.0.5 are incompatible with pcaspy)
 
 ```bash
 export EPICS_BASE=/epics/base   # Set this appropriately

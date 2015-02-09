@@ -2,7 +2,7 @@ Dependencies:
 
 * [Homebrew](http://brew.sh/)
 * [EPICS Base 3.14](http://www.aps.anl.gov/epics/base/R3-14/12.php)
-* [Swig 3.0.2](http://sourceforge.net/projects/swig/files/swig/swig-3.0.2/) (the homebrew version is incompatible with pcaspy)
+* [SWIG 3.0.2](http://sourceforge.net/projects/swig/files/swig/swig-3.0.2/) (the homebrew version is incompatible with pcaspy)
 
 ```bash
 export EPICS_BASE=/Library/EPICS/Base   # Set this appropriately

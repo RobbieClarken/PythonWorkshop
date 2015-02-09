@@ -5,11 +5,9 @@ Dependencies:
 * [SWIG 3.0.2](http://sourceforge.net/projects/swig/files/swigwin/swigwin-3.0.2/) (just copy the folder in the zip to C:\ and add it to your `PATH`)
 
 ```bat
-set EPICS_BASE=C:\EPICS\base      :: Set this appropriately
+set EPICS_BASE=C:\EPICS\base                     :: Set this appropriately
 set EPICS_HOST_ARCH=win32-x86
-set PATH=C:\Users\<username>\Anaconda\Scripts;%PATH%
+set PATH=C:\Users\<user>\Anaconda\Scripts;%PATH% :: Change <user> to your username
 conda install virtualenv
 pip install pyepics pcaspy
 ```
-
-To make EPICS on Windows
